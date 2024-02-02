@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="qstyle.css">
+    <!-- <link rel="stylesheet" href="phone.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /*Small Mobile */
+@media only screen and (min-width: 300px) and (max-width: 420px) {
+    /* CSS rules for screens with width between 200px and 720px */
+    *{
+        font-size: 15px;
+    }
+    #logo {
+        top: 1px;
+        left: 1px;
+    }
+    #logo img {
+      width: 3.0rem;
+        height: 2.9rem;
+        top: 1px;
+        left: 1px;
+    }
+    #Lname{
+        margin-right: -47%;
+        padding-left: 4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+    #navbar{
+        height: 61px;
+    }
+    #navbar ul {
+        margin-top: 30px;
+        margin-left: 45px;
+        /* margin: 45px 86px; */
+        list-style: none;
+        padding: 0px 5px;
+    }
+      #navbar ul li {
+        list-style: none;
+        padding: 0px 0px;
+    }
+    #containerH{
+        padding-top:70px ;
+    }
+}
+/*Medium Mobile */
+@media only screen and (min-width: 420px) and (max-width: 600px) {
+    /* CSS rules for screens with width between 200px and 720px */
+    *{
+        font-size: 15px;
+    }
+    #logo {
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    #logo img {
+        width: 3.0rem;
+        height: 2.9rem;
+        top: 1px;
+        left: 1px;
+    }
+    #Lname{
+        margin-right: -47%;
+        padding-left: 4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+    #navbar{
+        height: 61px;
+    }
+    #navbar ul {
+        margin-top: 28px;
+        margin-left: 125px;
+        /* margin: 45px 86px; */
+        list-style: none;
+        padding: 0px 5px;
+    }
+      #navbar ul li {
+        list-style: none;
+        padding: 0px 0px;
+    }
+    #containerH{
+        padding-top:70px ;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+          <img src="Logo.png" alt="FFD" />
+        </div>
+        <div id="Lname">DB Pro League</div>
+        <ul id="ul">
+            <li class="lii"><a href="index.html">Home</a></li>
+            <li class="lii"><a href="Table.html">Table</a></li>
+            <li class="lii"><a href="Fixtures.html">Fixtures</a></li>
+            <li class="lii"><a href="Quiz.html" class="active">Quiz</a></li>
+        </ul>
+        <!-- <span id="time"></span> -->
+      </nav>
+        <section id="containerH" class="app">
+            <h1>Simple Quiz</h1>
+            <div class="quiz">
+                <h2 id="question">Question here</h2>
+                <div id="answer-buttons">
+                    <button class="btn">Answer1</button>
+                    <button class="btn">Answer2</button>
+                    <button class="btn">Answer3</button>
+                    <button class="btn">Answer4</button>
+                </div>
+                <button id="next-btn">Next</button>
+            </div> 
+        </section>
+        <script src="Quizjjava.js"></script>
+</body>
+</html>

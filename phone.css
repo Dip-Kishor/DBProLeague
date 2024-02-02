@@ -1,0 +1,84 @@
+/*Small Mobile */
+@media only screen and (min-width: 300px) and (max-width: 420px) {
+    /* CSS rules for screens with width between 200px and 720px */
+    *{
+        font-size: 15px;
+    }
+    #logo {
+        top: 1px;
+        left: 1px;
+    }
+    #logo img {
+        width: 3.0rem;
+        height: 2.9rem;
+        top: 1px;
+        left: 1px;
+    }
+    #Lname{
+        margin-right: -47%;
+        padding-left: 4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+    #navbar{
+        height: 61px;
+    }
+    #navbar ul {
+        margin-top: 50px;
+        margin-left: 80px;
+        /* margin: 45px 86px; */
+        list-style: none;
+        padding: 0px 5px;
+    }
+      #navbar ul li {
+        list-style: none;
+        padding: 0px 0px;
+    }
+    #containerH{
+        padding-top:70px ;
+    }
+}
+/*Medium Mobile */
+@media only screen and (min-width: 420px) and (max-width: 600px) {
+    /* CSS rules for screens with width between 200px and 720px */
+    *{
+        font-size: 15px;
+    }
+    #logo {
+        top: 1px;
+        left: 1px;
+    }
+    #logo img {
+        width: 3.0rem;
+        height: 2.9rem;
+        top: 1px;
+        left: 1px;
+    }
+    #Lname{
+        margin-right: -47%;
+        padding-left: 4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+    #navbar{
+        height: 61px;
+    }
+    #navbar ul {
+        margin-top: 50px;
+        margin-left: 147px;
+        /* margin: 45px 86px; */
+        list-style: none;
+        padding: 0px 5px;
+    }
+      #navbar ul li {
+        list-style: none;
+        padding: 0px 0px;
+    }
+    #containerH{
+        padding-top:70px ;
+    }
+}
